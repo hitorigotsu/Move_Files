@@ -1,4 +1,4 @@
-﻿#ファイルの収集先
+﻿#ファイル及びフォルダの収集先
 $Target_Folder = "C:\test"
 #スクリプト実行日の日付
 $Now_Time = (Get-Date).Date
