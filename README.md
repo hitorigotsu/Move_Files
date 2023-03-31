@@ -6,7 +6,8 @@
 ・なし。
 
 ## 事前設定
-`$Target_Folder`に、ファイル及びフォルダの収集先となる`フォルダパス`を指定します
+`$Target_Folder`に、ファイル及びフォルダの収集先となる`フォルダパス`を指定します。
+
 また、`$Source | Where-Object {$_.Name -match "^Get"} | Move-Item -Destination $Input` の`"^Get"`の部分に、マッチさせたい文字列を指定します。
 ※指定しない場合は、前日の日付のみが条件となります。
 
